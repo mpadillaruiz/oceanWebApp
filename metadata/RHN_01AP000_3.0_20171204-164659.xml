@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:essm="http://www.cits.rncan.gc.ca/ess/essMetadataTools/essXsd/essm" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>254b628c-9839-422e-b2a6-522ba012b466</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng; CAN</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="RI_458" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95">utf8; utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:parentIdentifier>
+    <gco:CharacterString>87066e9a-94ee-680a-b1ba-591f4688db7d</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeListValue="RI_622" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108">dataset; jeuDonnées</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Director, ESS/CCMEO</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Directeur, SST/CCCOT</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:positionName>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="RI_413" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">originator; auteur</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>NRCan.geogratis-geogratis.RNCan@canada.ca</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">NRCan.geogratis-geogratis.RNCan@canada.ca</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Customer Support Group</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Équipe de soutien aux usagers</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>voice; 1 (819) 5645600</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">voix; 1 (819) 5645600</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:voice>
+              <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>voice; 1 (800) 6612638</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">voix; 1 (800) 6612638</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>1 (819) 5645698</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>NRCan.geogratis-geogratis.RNCan@canada.ca</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">NRCan.geogratis-geogratis.RNCan@canada.ca</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>www.geogratis.gc.ca</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+          <gmd:hoursOfService>
+            <gco:CharacterString>8:30/12:00; 13:00/16:30</gco:CharacterString>
+          </gmd:hoursOfService>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeListValue="RI_414" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">pointOfContact; contact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2017-12-04</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xsi:type="gmd:PT_FreeText_PropertyType">
+    <gco:CharacterString>North American Profile of ISO 19115:2003 – Geographic information – Metadata (NAP-Metadata)</gco:CharacterString>
+    <gmd:PT_FreeText>
+      <gmd:textGroup>
+        <gmd:LocalisedCharacterString locale="#FR">Profil nord-américain de la norme ISO 19115:2003 – Information géographique – Métadonnées (NAP-Metadata)</gmd:LocalisedCharacterString>
+      </gmd:textGroup>
+    </gmd:PT_FreeText>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>CAN/CGSB-171.100-2009</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:dataSetURI xsi:type="gmd:PT_FreeText_PropertyType">
+    <gco:CharacterString>http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/87066e9a-94ee-680a-b1ba-591f4688db7d</gco:CharacterString>
+    <gmd:PT_FreeText>
+      <gmd:textGroup>
+        <gmd:LocalisedCharacterString locale="#FR">http://geogratis.gc.ca/api/fr/nrcan-rncan/ess-sst/87066e9a-94ee-680a-b1ba-591f4688db7d</gmd:LocalisedCharacterString>
+      </gmd:textGroup>
+    </gmd:PT_FreeText>
+  </gmd:dataSetURI>
+  <gmd:locale>
+    <gmd:PT_Locale id="FR">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeListValue="fra" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116">French; Français</gmd:LanguageCode>
+      </gmd:languageCode>
+      <gmd:country>
+        <gmd:Country codeListValue="CAN" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117">Canada; Canada</gmd:Country>
+      </gmd:country>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="RI_458" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95">utf8; utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeListValue="RI_508" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_99">point; point</gmd:MD_GeometricObjectTypeCode>
+          </gmd:geometricObjectType>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeListValue="RI_507" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_99">curve; courbe</gmd:MD_GeometricObjectTypeCode>
+          </gmd:geometricObjectType>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeListValue="RI_510" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_99">surface; surface</gmd:MD_GeometricObjectTypeCode>
+          </gmd:geometricObjectType>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:authority>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>EPSG Geodetic Parameter Registry</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2010-11-02</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeListValue="RI_368" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">revision; révision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>OGP Geomatics Committee</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:authority>
+          <gmd:code>
+            <gco:CharacterString>EPSG::4617</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>http://www.epsg-registry.org/</gco:CharacterString>
+          </gmd:codeSpace>
+          <gmd:version>
+            <gco:CharacterString>7.6</gco:CharacterString>
+          </gmd:version>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>National Hydro Network (NHN) - 01AP000 - Lower saint john - kennebecasis, New Brunswick</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Réseau hydro national (RHN) - 01AP000 - Cours inférieur de la saint-jean - kennebecasis, Nouveau-Brunswick</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-09-15</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString>3.0</gco:CharacterString>
+          </gmd:edition>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>NRCan.geogratis-geogratis.RNCan@canada.ca</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                          <gmd:textGroup>
+                            <gmd:LocalisedCharacterString locale="#FR">NRCan.geogratis-geogratis.RNCan@canada.ca</gmd:LocalisedCharacterString>
+                          </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="RI_417" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">publisher; éditeur</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur de la politique stratégique et des résultats; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:organisationName>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="RI_413" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">originator; auteur</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeListValue="RI_391" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89">mapDigital; carteNumérique</gmd:CI_PresentationFormCode>
+          </gmd:presentationForm>
+          <gmd:series>
+            <gmd:CI_Series>
+              <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>GeoBase - National Hydro Network (NHN)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">GéoBase - Réseau hydro national (RHN)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:name>
+              <gmd:issueIdentification>
+                <gco:CharacterString>01AP000</gco:CharacterString>
+              </gmd:issueIdentification>
+            </gmd:CI_Series>
+          </gmd:series>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>The National Hydro Network (NHN) focuses on providing a quality geometric description and a set of basic attributes describing Canada's inland surface waters. It provides geospatial digital data compliant with the NHN Standard such as lakes, reservoirs, watercourses (rivers and streams), canals, islands, drainage linear network, toponyms or geographical names, constructions and obstacles related to surface waters, etc. The best available federal and provincial data are used for its production, which is done jointly by the federal and interested provincial and territorial partners. The NHN is created from existing data at the 1:50 000 scale or better. In particular, the modeling work of the NHN was based on Linear Reference System (LRS) concepts. This approach allows the management of geometric representation separately from attribute information (referred to as event in LRS). Unique Identifiers are associated with each geometric and event object. These IDs (called National Identifiers - NIDs) will lead to more efficient management of updates between data producers and data users.  The NHN data have a great potential for analysis, cartographic representation and display and will serve as base data in many applications. The NHN Work Unit Limits were created based on watersheds from Water Survey of Canadian Drainage Area and Drainage Areas from the Atlas of Canada products available on GeoGratis.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Le Réseau hydro national (RHN) vise à fournir une description géométrique de qualité et un ensemble d'attributs de base décrivant les eaux de surface intérieures du Canada. Il fournit des données géospatiales numériques conformément à la Norme RHN telles que lacs, réservoirs, cours d'eau (fleuves, rivières et ruisseaux), canaux, îles, réseau linéaire de drainage, toponymes, constructions et obstacles associées aux eaux de surface, etc. Les meilleures données fédérales et provinciales sont utilisées pour sa production, laquelle s'effectue conjointement par le fédéral et les partenaires des provinces et territoires intéressés. Le RHN est créé à partir de données existantes à l'échelle de 1/50 000 ou mieux. Le travail de modélisation du RHN a été basé notamment sur les concepts du Système de référence linéaire (SRL). Cette approche permet la gestion des représentations géométriques séparément de l'information attributive (appelée événement dans le SRL). Des identifiants uniques sont associés à chaque objet géométrique et événement. Ces identifiants (appelés identifiants nationaux (IDN)) permettront de traiter plus efficacement les mises à jour entre fournisseurs de données et utilisateurs. Les données du RHN présentent un fort potentiel d'analyse, de représentation cartographique et d'affichage et serviront de données de base à plusieurs applications. Les limites des Unités de travail RHN ont été créées à partir des bassins versants des produits Aires de drainage des Relevés hydrologiques du Canada et Aires de drainage de l'Atlas du Canada disponibles sur GéoGratis.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:purpose xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>In 2002, the Canadian Council On Geomatics (CCOG) tasked a group of experts from Nova Scotia Geomatics Centre (NSGC), British Columbia Base Mapping&amp;Geomatics Services (BMGS), and Natural Resources Canada - Centre for Topographic Information (CTI), to undertake to develop the National Hydro Network (NHN) Standard using the same approach used in the development of the National Road Network (NRN). The goal is to produce a complete NHN national coverage in collaboration with Canadian Federal, Provincial and Territorial partners, within the GeoBase initiative framework. In August 2004, the Canadian Council on Geomatics (CCOG) approves the «National Hydro Network, Edition 1.0» Standard in accordance with CCOG resolution F03-05 on GeoBase Data Standard Maintenance. Since the CCOG has officially adopted the NHN Standard, work has begun to produce NHN data compliant to GeoBase. The NHN thus forms the hydrographic layer of the GeoBase. The Centre for Topographic Information - Sherbrooke (CTIS), part of Natural Resources Canada (NRCan), pursues its goal of capturing and managing NHN data within a network of partners. These partner organizations are selected for their specific interests or for their ease in offering adequate, up-to-date representations of water related phenomena.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">En 2002, le Conseil canadien de géomatique (COCG) mandate une équipe d'experts du Nova Scotia Geomatics Centre (NSGC), des Base Mapping&amp;Geomatic Services (BMGS) de la Colombie-Britannique et de Ressources naturelles Canada - Centre d'information topographique (CIT), afin d'élaborer la norme du RHN, en suivant l'approche utilisée lors de la conception du Réseau routier national (RRN). Le but visé consiste à produire une couverture RHN nationale complète en collaboration avec des partenaires fédéraux, provinciaux et territoriaux du Canada, dans le cadre de l’initiative GéoBase. En août 2004, le Conseil canadien de géomatique (COCG) approuve la Norme du «Réseau hydro national, édition 1.0», conformément à la résolution F03-05 du COCG sur la maintenance des normes nationales de la GéoBase. Suite à l'adoption officielle de la Norme RHN par le COCG, le travail de production de données RHN conformes à la GéoBase est amorcé. Le RHN forme ainsi la couche hydrographique de la GéoBase. Le Centre d’information topographique, Sherbrooke (CITS), un organisme de Ressources naturelles Canada (RNCan), poursuit son objectif de saisir et de gérer les données RHN au sein d’un réseau de partenaires. Ces organisations sont choisies pour leurs intérêts spécifiques ou pour leur facilité à offrir des représentations adéquates et actualisées des phénomènes hydriques.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeListValue="RI_593" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106">completed; complété</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:organisationName>
+          <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Customer Support Group</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Équipe de soutien aux usagers</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>voice; 1 (819) 5645600</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">voix; 1 (819) 5645600</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:voice>
+                  <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>voice; 1 (800) 6612638</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">voix; 1 (800) 6612638</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>1 (819) 5645698</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>NRCan.geogratis-geogratis.RNCan@canada.ca</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">NRCan.geogratis-geogratis.RNCan@canada.ca</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>www.geogratis.gc.ca</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+              <gmd:hoursOfService>
+                <gco:CharacterString>8:30/12:00; 13:00/16:30</gco:CharacterString>
+              </gmd:hoursOfService>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="RI_414" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">pointOfContact; contact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeListValue="RI_543" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102">unknown; inconnu</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+          <gmd:updateScope>
+            <gmd:MD_ScopeCode codeListValue="RI_622" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108">dataset; jeuDonnées</gmd:MD_ScopeCode>
+          </gmd:updateScope>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>GeoBase</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">GéoBase</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>NHN</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">RHN</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>01AP000</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="RI_529" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">product; produit</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Earth Sciences</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Sciences de la Terre</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="RI_524" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">discipline; discipline</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Earth sciences</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Sciences de la terre</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Cartography</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Cartographie</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Geography</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Géographie</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Geographic data</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Données géographiques</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Geographic information systems</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Système d'information géographique</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Geomatics</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Géomatique</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Topography</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Topographie</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Toponymy</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Toponymie</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="RI_528" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">theme; thème</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Government of Canada Core Subject Thesaurus</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Thésaurus des sujets de base du gouvernement du Canada</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2011-05-16</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Library and Archives Canada</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Bibliothèque et Archives Canada</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>BIOSPHERE &gt; TERRESTRIAL ECOSYSTEMS &gt; ISLANDS</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">biosphère &gt; écosystèmes terrestres &gt; îles</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>HUMAN DIMENSIONS &gt; INFRASTRUCTURE &gt; TRANSPORTATION</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">aspects humains &gt; infrastructure &gt; transport</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; DISCHARGE/FLOW</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">hydrosphère terrestre &gt; eau de surface &gt; débit/écoulement</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; DRAINAGE</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">hydrosphère terrestre &gt; eau de surface &gt; drainage</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; LAKES</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">hydrosphère terrestre &gt; eau de surface &gt; lacs</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; RIVERS/STREAMS</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">hydrosphère terrestre &gt; eau de surface &gt; rivières/cours d'eau</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; WATER CHANNELS</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">hydrosphère terrestre &gt; eau de surface &gt; voies d'eau</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>OCEANS &gt; COASTAL PROCESSES &gt; SHORELINES</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">océans &gt; processus intervenant sur le littoral &gt; rivages</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>TERRESTRIAL HYDROSPHERE &gt; SURFACE WATER &gt; WATERSHED CHARACTERISTICS</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">hydrosphère terrestre &gt; eau de surface &gt; caractéristiques des bassins versants</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="RI_528" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">theme; thème</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>The Global Change Master Directory (GCMD)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Traduction française des thèmes du Global Change Master Directory</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>GCMD</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2009-05</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeListValue="RI_367" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">publication; publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>9.8.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NASA/Goddard Space Flight Center</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Hydrography</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Hydrographie</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Inland Surface Water</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Eaux de surface intérieures</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Hydro Network</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Réseau hydro</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Waterbody</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Région hydrique</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Banks</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Rives</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Littoral</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Coastline</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Trait de côte</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Toponyms/Geographical Names</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Toponymes/Noms géographiques</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Hydro Traversal</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Route hydrographique</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="RI_528" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">theme; thème</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>None</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Aucun</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date></gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeListValue="RI_369" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">notAvailable; nonDisponible</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Government of Canada, Natural Resources Canada, Earth Sciences Sector</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada, Ressources naturelles Canada, Secteur des sciences de la Terre</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>01AP000</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cours inférieur de la saint-jean - kennebecasis</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Lower saint john - kennebecasis</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="RI_525" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">place; endroit</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>None</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Aucun</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date></gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeListValue="RI_369" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87">notAvailable; nonDisponible</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Government of Canada, Natural Resources Canada, Earth Sciences Sector</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada, Ressources naturelles Canada, Secteur des sciences de la Terre</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>New Brunswick</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Nouveau-Brunswick</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Canada</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeListValue="RI_525" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101">place; endroit</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Canadian Geographical Names Data Base (CGNDB)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Base de données toponymiques du Canada (BDTC)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>CGNDB</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date></gmd:date>
+                  <gmd:dateType></gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Government of Canada, Natural Resources Canada, Earth Sciences Sector</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada, Ressources naturelles Canada, Secteur des sciences de la Terre</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeListValue="RI_409" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">custodian; conservateur</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>© Department of Natural Resources Canada. All rights reserved.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">© Le ministère des Ressources naturelles Canada. Tous droits réservés</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeListValue="RI_602" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">copyright; droitAuteur</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:useLimitation>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeListValue="RI_606" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">license; licence</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeListValue="RI_635" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109">vector; vecteur</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:distance>
+            <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/gmxUom.xml#m">0.0000001</gco:Distance>
+          </gmd:distance>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gco:CharacterString>eng; CAN</gco:CharacterString>
+      </gmd:language>
+      <gmd:language>
+        <gco:CharacterString>fra; CAN</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="RI_458" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95">utf8; utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>ground condition</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">condition au sol</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:extentTypeCode>
+                <gco:Boolean>1</gco:Boolean>
+              </gmd:extentTypeCode>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-66.5</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>44.8</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>46.4</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="tp1">
+                  <gml:begin>
+                    <gml:TimeInstant gml:id="ti1">
+                      <gml:timePosition>1975</gml:timePosition>
+                    </gml:TimeInstant>
+                  </gml:begin>
+                  <gml:end>
+                    <gml:TimeInstant gml:id="ti2">
+                      <gml:timePosition>1994</gml:timePosition>
+                    </gml:TimeInstant>
+                  </gml:end>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>NHN-CL1: This National Hydro Network (NHN) dataset contains Completeness Level 1 (CL1) data. For more information about NHN Completeness Levels, please refer to the "Implementation -&gt; Completeness Levels" section of the National Hydro Network.Depending on the source data used, the resulting NHN data may present some gaps, deviations or differences compared to NHN standards and specifications (re: missing features and attribute values, spatial relations not respected, etc.). When this happens, those differences are documented under the "Data -&gt; Differences in NHN Data" section of the National Hydro Network. This product is subject to discrepancies detection process. A discrepancy is defined as any deviation of dataset (or metadata) from the NHN product's Standards and Specifications. For more information about discrepancies, please refer to the "Discrepancies / Comments" section of the National Hydro Network.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">RHN-NC1 : Ce jeu de données du Réseau hydro national (RHN) correspond au Niveau de complétude 1 (NC1). Pour plus d'information concernant les Niveaux de complétude RHN, veuillez consulter la section «Mise en oeuvre -&gt; Niveaux de complétude » du produit Réseau hydro national.Selon les données source utilisées, les données RHN peuvent présenter certains écarts ou différences par rapport à la norme RHN (re : entités et valeurs d'attributs manquantes, relations spatiales non respectées, etc.). Lorsque cela se produit, ces différences sont documentées dans la section « Données -&gt; Différences dans les données RHN » du produit Réseau hydro national.Ce produit est soumis à un processus de détection d'anomalies. Le terme anomalie désigne toute observation qui rend un jeu de données (ou métadonnées) non conforme aux normes et spécifications du produit RHN. Pour plus d'information concernant les anomalies, veuillez consulter la section « Anomalies / Commentaires » du produit Réseau hydro national.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GML (Geography Markup Language)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>2.1.2</gco:CharacterString>
+          </gmd:version>
+          <gmd:specification>
+            <gco:CharacterString>Geography Markup Language – GML – 2.1.2, OpenGIS®Implementation Specifications, OGC Document Number 02-069 (http://portal.opengeospatial.org/files/?artifact_id=11339)</gco:CharacterString>
+          </gmd:specification>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Shape</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>01</gco:CharacterString>
+          </gmd:version>
+          <gmd:specification>
+            <gco:CharacterString>ESRI Shapefile Technical Description, an ESRI White Paper - July 1998 (http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)</gco:CharacterString>
+          </gmd:specification>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>KMZ</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>2.0</gco:CharacterString>
+          </gmd:version>
+          <gmd:specification>
+            <gco:CharacterString>http://keyhole.com/kml/kml_doc.html</gco:CharacterString>
+          </gmd:specification>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:organisationName>
+              <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Customer Support Group</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Équipe de soutien aux usagers</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>voice; 1 (819) 5645600</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                          <gmd:textGroup>
+                            <gmd:LocalisedCharacterString locale="#FR">voix; 1 (819) 5645600</gmd:LocalisedCharacterString>
+                          </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                      </gmd:voice>
+                      <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>voice; 1 (800) 6612638</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                          <gmd:textGroup>
+                            <gmd:LocalisedCharacterString locale="#FR">voix; 1 (800) 6612638</gmd:LocalisedCharacterString>
+                          </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>1 (819) 5645698</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString>NRCan.geogratis-geogratis.RNCan@canada.ca</gco:CharacterString>
+                        <gmd:PT_FreeText>
+                          <gmd:textGroup>
+                            <gmd:LocalisedCharacterString locale="#FR">NRCan.geogratis-geogratis.RNCan@canada.ca</gmd:LocalisedCharacterString>
+                          </gmd:textGroup>
+                        </gmd:PT_FreeText>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>8:30/12:00; 13:00/16:30</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeListValue="RI_412" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">distributor; distributeur</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess>
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Free for download</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Gratuit pour les télécharger</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:fees>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>8.317576</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/shp_en/01/nhn_rhn_01ap000_shp_en.zip</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>SHP</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download english file in SHAPE through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier SHAPE anglais via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>8.318</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/shp_fr/01/nhn_rhn_01ap000_shp_fr.zip</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>SHP</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download french file in SHAPE through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier SHAPE français via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>5.065304</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/gml_en/01/nhn_rhn_01ap000_gml_en.zip</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>GML</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download english file in GML through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier GML anglais via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>5.055057</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/gml_fr/01/nhn_rhn_01ap000_gml_fr.zip</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>GML</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download french file in GML through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier GML français via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>34.128209</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/kml_en/01/nhn_rhn_01ap000_kml_en.kmz</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>KML</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download english file in KML through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier KML anglais via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>33.253638</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/kml_fr/01/nhn_rhn_01ap000_kml_fr.kmz</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>KML</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download french file in KML through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier KML français via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>8.992433</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/gdb_en/01/nhn_rhn_01ap000_gdb_en.zip</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>GDB</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download english file in GDB through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier GDB anglais via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>8.991009</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/gdb_fr/01/nhn_rhn_01ap000_gdb_fr.zip</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>GDB</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download french file in GDB through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier GDB français via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>266.207317</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/index/NHN_INDEX_WORKUNIT_LIMIT_2.zip</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>SHP</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download NHN INDEX file English version in SHAPE through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier SHAPE de l'index version anglaise via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>266.20835</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/index/RHN_LIMITE_UNITETRAV_INDEX_2.zip</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>SHP</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download index file French version in SHAPE through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier SHAPE de l'index version française via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.110734</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_nhnc1_en_Specifications.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  National Hydro Network, Canada, Level 1, Product Specifications  through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  National Hydro Network, Canada, Level 1, Product Specifications  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.115672</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_rhnc1_fr_Specifications.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  Réseau hydro national, Canada, niveau 1, Spécifications du produit  through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  Réseau hydro national, Canada, niveau 1, Spécifications du produit  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.360285</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_nhnc1_en_Data_Model_UML.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  National Hydro Network, Canada, Level 1, Data Model  through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  National Hydro Network, Canada, Level 1, Data Model  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.415667</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_rhnc1_fr_Modele_UML.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  Réseau hydro national, Canada, niveau 1, Modèles de données  through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  Réseau hydro national, Canada, niveau 1, Modèles de données  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.619291</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_nhnc1_en_Catalogue.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  National Hydro Network, Canada, Level 1, Linear Referencing System (LRS), Data Catalogue  through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  National Hydro Network, Canada, Level 1, Linear Referencing System (LRS), Data Catalogue  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.652804</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_rhnc1_fr_Catalogue.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  Réseau hydro national, Canada, niveau 1, Système de référence linéaire, Catalogue de données  through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  Réseau hydro national, Canada, niveau 1, Système de référence linéaire, Catalogue de données  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.487653</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_nhn_en_Specifications.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  National Hydro Network, Data Product Specifications, Distribution Profile   through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  National Hydro Network, Data Product Specifications, Distribution Profile  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.620655</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_rhn_fr_Specifications.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  Réseau hydro national, Spécifications de produit, Profil de distribution   through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  Réseau hydro national, Spécifications de produit, Profil de distribution  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.044893</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_nhn_en_Identification_Rules.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  National Vector Data - Identification Rules  through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  National Vector Data - Identification Rules  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:transferSize>
+            <gco:Real>0.047612</gco:Real>
+          </gmd:transferSize>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://ftp.geogratis.gc.ca/pub/nrcan_rncan/vector/geobase_nhn_rhn/doc/GeoBase_rhn_fr_Regles_Identification.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>HTTP</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>PDF</gco:CharacterString>
+              </gmd:name>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Download file  Données vectorielles nationales - Règles d’identification   through HTTP</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Téléchargez le fichier  Données vectorielles nationales - Règles d’identification  via HTTP</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeListValue="RI_622" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108">dataset; jeuDonnées</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification xlink:href="http://ftp2.cits.rncan.gc.ca/pub/geobase/official/nhn_rhn/doc/GeoBase_NHN_Specs_EN.pdf; http://ftp2.cits.rncan.gc.ca/pub/geobase/official/nhn_rhn/doc/GeoBase_RHN_Specs_FR.pdf" xlink:title="National Hydro Network, Data Product Specifications, Distribution Profile, Edition 1.0, 2007-06-01; Réseau hydro National (RHN) Spécifications de produit, Profil de distribution, Édition 1.1, 2010-05-17"></gmd:specification>
+              <gmd:explanation xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Source data used in the generation of NHN data have previously undergone QA checks in regards to their content and structure. Resulting NHN data are organized and structured according to the NHN conceptual Standard as well as to its distribution profile, both available under the "Documentation" section of the National Hydro Network product on the GeoBase Web portal. The NHN Standard Data Catalogue stipulates the spatial integrity constraints which assure coherence between NHN features. NHN data have undergone extensive automated and interactive validation processes to ensure among others: - Spatial integrity constraints between features;- Area mathematical closure; - Network connectivity;- Network and feature directionality; - Bank orientations;- Hydro event positioning; - NHN data presence/omissions.Inconsistencies were either fixed or noted as NHN deviations with the NHN data model (refer to the "Supplemental information" section herewith).</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Les données source utilisées pour la génération de données RHN ont préalablement passées un contrôle de qualité en ce qui a trait à leur contenu et leur structure. Les données du RHN qui en résulte sont organisées et structurées conformément à la description conceptuelle de la Norme RHN ainsi qu'à son profil de distribution, tous deux disponibles à la section « Documentation » du produit Réseau hydro national sur le portail Web GéoBase. Le Catalogue de données de la Norme RHN stipule les contraintes d'intégrité spatiales qui assure la cohérence entre les entités RHN. Les données RHN ont subies de multiples validations automatiques et interactives afin d'assurer entre autre : - la validité des contraintes d'intégrité spatiales entre les entités;- la fermeture mathématique des surfaces; - la connectivité du réseau;- la directionnalité du réseau et des entités; - l'orientation des rives;- la position des événements; - la présence/absence d'entités RHN.Les incohérences ont été corrigées ou notées sous forme d'écarts au modèle RHN (se référer à la section « Information supplémentaire » du présent document).</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_CompletenessCommission>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification xlink:href="http://ftp2.cits.rncan.gc.ca/pub/geobase/official/nhn_rhn/doc/GeoBase_NHN_Specs_EN.pdf; http://ftp2.cits.rncan.gc.ca/pub/geobase/official/nhn_rhn/doc/GeoBase_RHN_Specs_FR.pdf" xlink:title="National Hydro Network, Data Product Specifications, Distribution Profile, Edition 1.0, 2007-06-01; Réseau hydro National (RHN) Spécifications de produit, Profil de distribution, Édition 1.1, 2010-05-17"></gmd:specification>
+              <gmd:explanation xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>The NHN is created from the best existing data available (federal, provincial or other data). The majority of NHN features and attributes are directly populated from source data features and attributes. In so doing the richness of the source data (re : accuracy, data density, geometry, ...) is preserved to the level authorized by the NHN data model. In particular this means that source data are not filtered nor degraded in order to produce NHN data.NHN data are compliant with the NHN Standards in accordance with the NHN Implementation Strategy. For more information on the NHN Implementation Strategy refer to the "Implementation -&gt; NHN Implementation Strategy" section of the National Hydro Network product on the GeoBase Web portal.Also, depending on the source data used, NHN data may present some deviations or discrepancies compared to NHN standards and specifications. For more information on the NHN deviations refer to the "Data -&gt; Differences in NHN Data" section of the National Hydro Network product on the GeoBase Web portal.</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Le RHN est créé à partir des meilleures données existantes disponibles (données fédérales, provinciales ou autres). La majorité des entités et attributs RHN sont directement peuplés à partir des entités et valeurs d'attributs des données source. Ce faisant, la richesse des données source (ref. : précision, densité d'information, géométrie, ...) est préservée à la mesure de ce que permet le modèle de données RHN. Cela signifie notamment que les données source ne sont ni filtrées ni dégradées afin de produire les données RHN.Les données RHN sont conformes à la Norme RHN selon la stratégie d'implantation du RHN. Pour plus d'information concernant la stratégie d'implantation se référer à la section « Mise en oeuvre -&gt; Stratégie d'implantation du RHN » du produit Réseau hydro national sur portail web GéoBase.Aussi, selon les données source utilisées, les données RHN peuvent présenter certains écarts ou différences par rapport à la Norme RHN. Pour plus d'information concernant les écarts à la norme, se référer à la section « Données -&gt; Différences dans les données RHN » du produit Réseau hydro national sur le portail Web GéoBase.</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_CompletenessCommission>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+          <gmd:measureDescription xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The geometric accuracy of NHN features on the Canadian territory is given as the difference between features position in the dataset and their real ground positions measured in reference to the geodetic network. The accuracy may vary from one feature to another. It is thus provided in attribute with each feature and is expressed in accordance with the Circular Map Accuracy Standard (CMAS).  Standard circular error : Sc = 0.7071 (Sx^2 + Sy^2)^1/2 where  ^: exponent,  Sx: standard deviation in the X-axis,  Sy: standard deviation in the Y-axis,  Circular Map Accuracy Standard:  CMAS = 2.1460 Sc. The NHN aims at obtaining a CMAS of 30 metres or better. This accuracy is based on Landsat 7 orthoimages and the GeoBase Data Alignment Layer. As NHN data is created using available data sources (e.g. federal or provincial data), a dataset's planimetric accuracy is based on the source data. When a federal source data is used (e.g. NTDB data at the 1:50,000 scale), the planimetric accuracy (CMAS) is equivalent or better then that of the Landsat7 orthorectified product (available on the GeoBase portal), that is to say generally 30 metres or better. When a provincial source is used, the planimetric accuracy is generally better than 30 metres, reaching only a few metres in some cases. The geometric accuracy of NHN features beyond the Canadian territory is not qualified.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">La précision géométrique des entités RHN du territoire canadien est représentée par la différence entre la position de ces entités dans le jeu de données et leurs positions réelles mesurées relativement au réseau géodésique. La précision peut varier d'une entité à une autre. Celle-ci est donc est fournie en attribut à chaque entité et est exprimée selon la   Erreur circulaire standard : Sc = 0.7071 (Sx^2 + Sy^2)^1/2 où  ^ : exposant,  Sx : écart-type dans l'axe X,  Sy : écart-type dans l'axe Y,  Précision circulaire cartographique normalisée :  PCCN = 2.1460 Sc. Le RHN vise à obtenir une PCCN de 30 mètres ou mieux. Cette précision est basée sur les ortho-images Landsat 7 et la couche de cohérence de la GéoBase. Comme les données du RHN sont créées à partir de données existantes disponibles (ex. : données fédérales ou provinciales), l'évaluation de la précision planimétrique d'un jeu de données RHN est donc fonction des données source. Dans le cas de données source d'origine fédérale (ex. : données de la BNDT à l'échelle de 1/50 000), la précision planimétrique (PCCN) est équivalente ou meilleure que celle du produit Landsat7 orthorectifié (disponible sur le portail GéoBase), soit généralement 30 mètres ou mieux. Dans le cas de données source d'origine provinciale, cette précision planimétrique est généralement meilleure que 30 mètres, pouvant atteindre quelques mètres seulement dans certains cas. La précision géométrique des entités RHN au delà du territoire canadien n'est pas qualifiée.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:measureDescription>
+          <gmd:evaluationMethodDescription xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Upper bound of the Circular Map Accuracy Standard (CMAS) domain of values for the NHN. This means that features in this dataset generally have an accuracy value smaller or equal to this value. For more information, please refer to object metadata associated to the dataset features.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Borne supérieure du domaine des valeurs de Précision cartographique circulaire normalisée (PCCN ou CMAS (Circular Map Accuracy Standard)) pour le RHN. Cela signifie que les entités du jeu de données possèdent généralement une précision inférieure ou égale à cette valeur. Pour plus d'information, il faut se rapporter aux métadonnées objet qui sont associées aux entités du jeu de données.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:evaluationMethodDescription>
+          <gmd:result>
+            <gmd:DQ_QuantitativeResult>
+              <gmd:valueUnit>
+                <gml:BaseUnit gml:id="HORIZ_EXPL_NHN_1">
+                  <gml:identifier codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:identifier>
+                  <gml:name codeSpace="http://www.bipm.org/en/si/base_units/">metre</gml:name>
+                  <gml:quantityType>length</gml:quantityType>
+                  <gml:catalogSymbol codeSpace="http://www.bipm.org/en/si/base_units/">m</gml:catalogSymbol>
+                  <gml:unitsSystem xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.bipm.fr/en/si"></gml:unitsSystem>
+                </gml:BaseUnit>
+              </gmd:valueUnit>
+              <gmd:value>
+                <gco:Record>
+                  <gco:Distance uom="m">25</gco:Distance>
+                </gco:Record>
+              </gmd:value>
+            </gmd:DQ_QuantitativeResult>
+          </gmd:result>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>This NHN Work Unit (WU) was re-generated following modifications of its NHN Work Unit Limit. Such limit modifications are due to the modification of the extent of an adjacent Work Unit, which was done as part of another NHN data production (ex. The creation of trans-boundary Canada/USA NHN data, the creation of NHN data from provincial data, the creation of updated NHN data or following the correction of an anomaly on NHN data).  Source data used in this process originate from previous NHN data editions which were uploaded into NRCan's internal Geospatial Database (GDB). The Completeness Level for the resulting NHN data corresponds to that of the previous edition or when originating from more that one WU to the lowest level of the latter.  The re-generation of NHN Work Units is carried-out in 2 phases:   1- The data preparation consists of extracting the required hydrographic data from the GDB and merging it as per the new NHN Work Unit Limit.  2- The NHN data creation consists of validating the hydro network, generating the final NHN data and loading it into the GeoBase database.</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">Cette Unité de travail RHN (UT) a fait l'objet d'une re-génération des données RHN suite à des modifications de sa Limite d'Unité de travail. De telles modifications de la limite sont dues à la modification de l'étendue d'une Unité de travail adjacente qui s'est effectuée dans le cadre d'un autre travail de génération de données RHN (i.e. la création de données RHN transfrontalières Canada/Etats-Unis, de données RHN issues de données provinciales, de données RHN à jour ou suite à la correction d'une anomalie des données RHN).   Les données source utilisées dans ce processus sont issues des données RHN d'éditions précédentes qui ont été chargées dans la Base de données géospatiales (BDG) interne de RNCan. Le niveau de complétude des données RHN résultantes correspond à celui de l'édition précédente ou lorsque issu de plus d'une UT RHN au niveau le plus bas de ces dernières.  Le travail de re-génération des données RHN est effectué en 2 phases :   1- La préparation des données RHN consiste à extraire les données hydrographiques nécessaires de la BDG et à les fusionner selon la nouvelle Limite d'Unité de travail.  2- La création des données RHN consiste à valider le réseau hydro, à générer les données RHN finales et à les charger dans la base de données GéoBase.</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2017-09-15T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>The initial production of NHN data at the Completeness Level 1 (NHN-CL1) carried-out by the Canada Centre for Mapping and Earth Observation(CCMEO) is achieved via a nearly full-automated NHN-CL1 production process. The source data used in this process comes from NRCan's internal Geospatial Database (GDB), in which data is stored as per the National Topographic System (NTS) delineation, and from the Canadian Geographical Names Data Base (CGNDB). NHN WU Limits are for their part based on the Water Survey of Canada Sub-Sub-Drainage Areas (WSCSSDA 5.0, 2003).  Because water definition types are not known for all GDB single line watercourses and waterbodies for the entire WU, this latter is defined at completeness level 1.  The initial production of NHN-CL1 data is carried-out in 4 phases:   1- The NHN Work Unit definition consists in doing the required modifications to the WSCSSDA limits in order to contain all hydrographic features required for the creation of NHN data.  2- The data preparation consists of extracting the required hydrographic data from the GDB and merging it into WU.  3- The completion of the hydro network required data includes the creation of Inferred type Network Linear Flows (NLF), the determination of priority levels (Primary or Secondary) for NLF, the determination of the flow direction for Primary type NLF, the creation of islands and the association of geographical names to NHN features.  4- The NHN data creation consists of validating the hydro network, generating the final NHN data of which Delimiter and Hydro Junction features and loading the data into the GeoBase database.</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FR">La production initiale d'Unités de travail RHN (UT) au niveau de complétude 1 (RHN-NC1) effectuée par le Centre canadien de cartographie et d'observation de la Terre (CCCOT) est réalisée par le biais d'un processus de production presqu'entièrement automatisé. Les données source utilisées dans ce processus proviennent de la Base de données géospatiales (BDG) interne de RNCan, dans laquelle les données sont entreposées selon le découpage du Système national de référence cartographique (SNRC), et de la Base de données toponymiques du Canada (BDTC). Les Limites des UT sont pour leur part basées sur les Sous-sous-aires de drainage des Relevés hydrologiques du Canada (SSADRHC 5.0, 2003)  Puisque les définitions de régions hydriques pour les entités BDG cours d'eau simple et régions hydriques ne sont pas connues pour l'ensemble de l'UT, celle-ci est définie au niveau de complétude 1.  La production initiale de données RHN-NC1 est effectué en 4 phases :   1- La définition de la limite de l'Unité de Travail RHN (UT) consiste à apporter les modifications nécessaires aux limites des SSADRHC de façon à contenir les données hydrographiques nécessaires à la création des données RHN et à les charger dans la base de données interne des Limites d'Unités de travail RHN de RNCan.  2- La préparation des données RHN consiste à extraire les données hydrographiques nécessaires de la BDG et à les fusionner en UT.  3- Le complètement des données nécessaires au réseau hydro comprend la création des Filamentaires d'écoulement (FE) de type Inféré, l'attribution des niveaux de priorité (Primaire ou Secondaire) des FE, la détermination de la direction d'écoulement des FE de type Primaire, la création des îles et l'association des toponymes de la BDTC aux entités RHN.  4- La création des données RHN consiste à valider le réseau hydro, à générer les données RHN finales dont la création des entités Délimiteurs et Jonctions hydro et à charger les données dans la base de données GéoBase.</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2007-12-14T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:accessConstraints>
+        <gmd:MD_RestrictionCode codeListValue="RI_609" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">otherRestrictions; autresRestrictions</gmd:MD_RestrictionCode>
+      </gmd:accessConstraints>
+      <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>None</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Aucune</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:otherConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#FR">Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:useLimitation>
+      <gmd:useConstraints>
+        <gmd:MD_RestrictionCode codeListValue="RI_610" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107">licenseUnrestricted; licenceSansRestriction</gmd:MD_RestrictionCode>
+      </gmd:useConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+        <gmd:MD_MaintenanceFrequencyCode codeListValue="RI_542" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102">notPlanned; nonPlanifié</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+      <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:organisationName>
+          <gmd:positionName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Customer Support Group</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FR">Équipe de soutien aux usagers</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>voice; 1 (819) 5645600</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">voix; 1 (819) 5645600</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:voice>
+                  <gmd:voice xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>voice; 1 (800) 6612638</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">voix; 1 (800) 6612638</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>1 (819) 5645698</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>NRCan.geogratis-geogratis.RNCan@canada.ca</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#FR">NRCan.geogratis-geogratis.RNCan@canada.ca</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>www.geogratis.gc.ca</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>HTTP</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeListValue="RI_376" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88">information; information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+              <gmd:hoursOfService>
+                <gco:CharacterString>8:30/12:00; 13:00/16:30</gco:CharacterString>
+              </gmd:hoursOfService>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeListValue="RI_414" codeList="http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90">pointOfContact; contact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:contact>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmd:MD_Metadata>

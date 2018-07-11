@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Main application">
+		<meta name="author" content="MartaPadillaRuiz">
+		<title>Ocean Modelers Web Mapping application</title>
+
+
+		<!-- Bootstrap core CSS-->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom fonts for this template-->
+		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	    <!-- Custom styles for this template-->
+		<link href="css/sb-admin.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+
+		<!-- Leaflet measure plugin -->
+		<link rel="stylesheet" href="css/leaflet-measure.css">
+
+		<!-- Custom style -->
+		<link href="css/mystyle_mainApp.css" rel="stylesheet">
+
+		<!-- leaflet library -->
+		<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+		<script src="https://unpkg.com/leaflet.nontiledlayer/dist/NonTiledLayer.js"></script>
+		<script src="js/geotiff.js"></script>
+		<script src="js/plotty.js"></script>
+
+		<!-- Leaflet WMS for Source and get feature info -->
+		<script src="js/leaflet.wms.js"></script>
+		<!-- Leaflet WMS for get capabilities-->
+		<script src="js/Leaflet-WMS.js"></script>
+
+		<script src="js/SliderControl.js"></script>
+
+		<!-- Leaflet draw -->
+		<script src="src/Leaflet.draw.js"></script>
+		<script src="src/Leaflet.Draw.Event.js"></script>
+		<link rel="stylesheet" href="src/leaflet.draw.css"/>
+
+		<script src="src/Toolbar.js"></script>
+		<script src="src/Tooltip.js"></script>
+
+		<script src="src/ext/GeometryUtil.js"></script>
+		<script src="src/ext/LatLngUtil.js"></script>
+		<script src="src/ext/LineUtil.Intersect.js"></script>
+		<script src="src/ext/Polygon.Intersect.js"></script>
+		<script src="src/ext/Polyline.Intersect.js"></script>
+		<script src="src/ext/TouchEvents.js"></script>
+
+		<script src="src/draw/DrawToolbar.js"></script>
+		<script src="src/draw/handler/Draw.Feature.js"></script>
+		<script src="src/draw/handler/Draw.SimpleShape.js"></script>
+		<script src="src/draw/handler/Draw.Polyline.js"></script>
+		<script src="src/draw/handler/Draw.Marker.js"></script>
+		<script src="src/draw/handler/Draw.Circle.js"></script>
+		<script src="src/draw/handler/Draw.CircleMarker.js"></script>
+		<script src="src/draw/handler/Draw.Polygon.js"></script>
+		<script src="src/draw/handler/Draw.Rectangle.js"></script>
+
+
+		<script src="src/edit/EditToolbar.js"></script>
+		<script src="src/edit/handler/EditToolbar.Edit.js"></script>
+		<script src="src/edit/handler/EditToolbar.Delete.js"></script>
+
+		<script src="src/Control.Draw.js"></script>
+
+		<script src="src/edit/handler/Edit.Poly.js"></script>
+		<script src="src/edit/handler/Edit.SimpleShape.js"></script>
+		<script src="src/edit/handler/Edit.Rectangle.js"></script>
+		<script src="src/edit/handler/Edit.Marker.js"></script>
+		<script src="src/edit/handler/Edit.CircleMarker.js"></script>
+		<script src="src/edit/handler/Edit.Circle.js"></script>
+
+		<script src='js/leaflet-image.js'></script>
+
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+		<!-- Legend WMS plugin   -->
+		<link rel="stylesheet" href="css/leaflet.wmslegend.css"/>
+		<script src="js/leaflet.wmslegend.js"></script>
+
+		<!-- WKT Reader -->
+		<script src="js/wicket.js" type="text/javascript"></script>
+		<script src="js/wicket-leaflet.js" type="text/javascript"></script>
+		<script src="js/LeafletToWKT.js" type="text/javascript"></script>
+
+		<!-- Slide control for time -->
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" type="text/css">
+
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+		<script src="https://rawgit.com/dwilhelm89/LeafletSlider/master/SliderControl.js" type="text/javascript"></script>
+
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+	</head>
+
+	<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+
+		<div id="popup">
+			<div id="loader" class="popup2"></div>
+		</div>
+
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+			<img style="margin-left:1px" src="img/pageIcon.png" align="right">
+			<a class="navbar-brand" align="left" style="margin-left:20px; color:white;">Ocean Modelers Web Mapping application</a>
+			<!-- Button for re-select the area of interest (It goes back to the previous page) -->
+
+			<div class="collapse navbar-collapse" id="navbarResponsive2">
+			<a id="infoButton" class="btn" href="http://www.omg.unb.ca/" target="_blank" style="position: absolute; right: 0;margin-right:20px" data-toggle="tooltip" data-placement="left" title="About Us">
+				<i class="material-icons" style="font-size:20px;color:white;">info</i>
+			</a>
+
+
+			<a id="helpButton" class="btn" href=\tutorial\usermanual.pdf target="_blank" style="position: absolute; right: 0;margin-right:80px" data-toggle="tooltip" data-placement="left" title="Help">
+				<i class="material-icons" style="font-size:20px;color:white;">help</i>
+			</a>
+			<button id="areaButton" class="btn" type="button" style="position: absolute; right: 0;margin-right:160px" data-toggle="tooltip" data-placement="left" title="Change the area">
+				<span class="fa fa-crop" style="color:white"></span>
+			</button>
+
+			<button id="zoomButton" class="btn" type="button" onclick="zoomArea()" style="position: absolute; right: 0;margin-right:220px" data-toggle="tooltip" data-placement="left" title="Zoom to the area">
+				<i class="material-icons" style="font-size:20px;color:black;">zoom_out_map</i>
+			</button>
+
+			</div>
+
+			<!-- Button for mobile mode -->
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive,#navbarResponsive2" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav navbar-sidenav" id="exampleAccordion" style="scroll:false">
+					<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bathymetry">
+						<a class="nav-link icon inactiveLink" onclick="bathymetryActive()" id="link1">
+							<img src="img/seabed_icon.png" alt="buoy" height="100%" width="100%">
+							<span class="nav-link-text spanmargin">Bathymetry</span>
+						</a>
+					</li>
+
+					<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Temperature, Salinity and Sound Speed">
+						<a class="nav-link icon inactiveLink" onclick="MVPActive()" id="link2">
+							<i class="material-icons" style="font-size:40px;color:white;">directions_boat</i>
+							<span class="nav-link-text spanmargin">Temperature, Salinity and Sound Speed</span>
+						</a>
+					</li>
+
+					<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Water Velocity (currents)">
+						<a class="nav-link icon inactiveLink" onclick="ADCPActive()" id="link7">
+							<img src="img/currents_icon.png" alt="buoy" height="100%" width="100%">
+							<span class="nav-link-text spanmargin">Water Velocity (currents)</span>
+						</a>
+					</li>
+
+					<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Hydrometric Data">
+						<a class="nav-link icon inactiveLink" onclick="WaterLevelActive()" id="link3">
+							<i class="material-icons" style="font-size:40px;color:white;">opacity</i>
+							<span class="nav-link-text spanmargin" >Hydrometric data</span>
+						</a>
+					</li>
+
+					<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Weather Data">
+						<a class="nav-link icon inactiveLink" onclick="WeatherActive()" id="link4">
+							<img src="img/weather.png" alt="buoy" height="100%" width="100%">
+							<span class="nav-link-text spanmargin" >Weather</span>
+					  </a>
+					</li>
+
+					<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Orthophotographs">
+						<a class="nav-link icon inactiveLink" onclick="orthoActive()" id="link5">
+							<i class="material-icons" style="font-size:40px;color:white;">map</i>
+							<span class="nav-link-text spanmargin" >Orthophotographs</span>
+						</a>
+					</li>
+
+					<li class="nav-item " data-toggle="tooltip" data-placement="right" title="Buoy Data">
+						<a class="nav-link icon inactiveLink" onclick="buoyActive()" id="link6">
+							<img src="img/buoy.png" alt="buoy" height="100%" width="100%">
+							<span class="nav-link-text spanmargin" >Buoy Data</span>
+					  </a>
+					</li>
+
+					<li class="nav-item " data-toggle="tooltip" data-placement="right" title="Coast Lines">
+						<a class="nav-link icon inactiveLink" onclick="coastActive()" id="link8">
+							<img src="img/coast.png" alt="coast" height="100%" width="100%">
+							<span class="nav-link-text spanmargin" >Coast Lines</span>
+						</a>
+					</li>
+					<li class="nav-item " data-toggle="tooltip" data-placement="right" title="Tidal Gauges">
+						<a class="nav-link icon inactiveLink" onclick="tidesActive()" id="link9">
+							<img src="img/tidalinv.png" alt="coast" height="100%" width="100%">
+							<span class="nav-link-text spanmargin" >Tidal Gauges</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="navbar-nav sidenav-toggler">
+					<li class="nav-item">
+						<a class="nav-link text-center" id="sidenavToggler">
+							<i class="fa fa-circle-o"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+
+
+		<div class="content-wrapper" >
+
+
+			<div class="map-nowrapper" id="tiled-map"></div>
+			<div class="panel-group panel-nowrapper" id="accordion">
+				<div class="panel panel-default" style="height:100%;">
+					<div class="panel-body" style="height:100%;">
+						<div class='row' style="height:100%;">
+							<div class='col-10'>
+								<p id='accordionText'></p>
+							</div>
+							<div class='col-2'>
+								<button id="arrow-button" style='height:100%' type="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" onclick="changeclass()" class="btn pull-right ">
+									<i id="arrow-icon" class="fa fa-angle-up" style="color:white"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" name="dialog_frame" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id = "ModalTitle"></h4>
+					</div>
+
+					<div class="modal-body" id="ModalGraph"></div>
+					<div class="modal-legend" style="text-align: center;" id="ModalLegend">
+
+					</div>
+					<div class="modal-footer">
+						<div class="modal-footer-text" id="ModalFoot"></div>
+						<button type="button" id="closeModalBtn" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--Charts -->
+		<script src="http://www.chartjs.org/dist/2.7.1/Chart.bundle.js"></script>
+		<script src="http://www.chartjs.org/samples/latest/utils.js"></script>
+		<script src="https://momentjs.com/downloads/moment.js"></script>
+
+		<!-- Custom scripts for all pages-->
+		<script src="js/sb-admin.min.js"></script>
+
+		<script src="js/esri-leaflet.js"></script>
+		<script src="js/leaflet-measure.min.js"></script>
+
+		<!-- Printing -->
+		<script src="js/dom-to-image.min.js"></script>
+		<script async="" src="https://cdn.rawgit.com/eligrey/Blob.js/0cef2746414269b16834878a8abc52eb9d53e6bd/Blob.js"></script>
+		<script async="" src="https://cdn.rawgit.com/eligrey/canvas-toBlob.js/f1a01896135ab378aa5c0118eadd81da55e698d8/canvas-toBlob.js"></script>
+		<script async="" src="https://cdn.rawgit.com/eligrey/FileSaver.js/5ed507ef8aa53d8ecfea96d96bc7214cd2476fd2/FileSaver.min.js"></script>
+		<script src="js/bundle.js"></script>
+
+
+		<script src="js/app.js"></script>
+
+	</body>
+
+</html>

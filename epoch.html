@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Leaflet Time Slider Example</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" /><![endif]-->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" type="text/css">
+</head>
+
+<body>
+    <div id="map" style="width: 100%; height: 600px"></div>
+
+	<p>
+         <label for = "price">Year range:</label>
+         <input type = "text" id = "price"
+            style = "border:0; color:#b9cd6d; font-weight:bold;">
+      </p>
+      <div id = "slider-3"></div>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+    <!-- Include this library for mobile touch support  -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+
+
+    <script src="SliderControl.js"></script>
+
+
+    <script>
+    var sliderControl = null;
+
+	var names=[];
+	var dates=[];
+	var n = 0;
+
+	var layers=[];
+
+    var myMap = L.map('map').setView([46.029812,-67.556988], 7);
+
+	//Function to add a stamen base map
+	var basemap = L.tileLayer("http://tile.stamen.com/toner-background/{z}/{x}/{y}.png", {
+        opacity: 0.1,
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    });
+
+	basemap.addTo(myMap);
+
+   /* var basemap=L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    });*/
+
+
+	var bathymetry = L.tileLayer.wms("http://131.202.94.74:8080/geoserver/oceanMapping/wms?", {
+    layers: 'oceanMapping:bmpyramid2048',
+    format: 'image/png',
+    transparent: true,
+    attribution: "Bathymetry data © 2018 OMG"
+});
+	//bathymetry.addTo(myMap);
+
+	var adcp = L.tileLayer.wms("http://localhost:8080/geoserver/oceanMapping/wms?", {
+		layers: 'oceanMapping:adcp_points',
+		format: "image/png",
+		transparent: "true",
+		version: "1.3.0",
+        tiled: true,
+		maxZoom:20
+});
+	adcp.addTo(myMap);
+
+
+	//Geoserver end point for WFS
+	var wfsURL = 'http://localhost:8080/geoserver/wfs';
+	var bboxvar ='-67.556988,44.713995,-64.15672,46.029812';
+
+	var survey = new L.GeoJSON(
+    null, {
+		onEachFeature: pop_Surveys,
+		style:style_Surveys
+
+    });
+
+	/*Add layer control to map.*/
+	var baselayers = {'Basemap<div style="float:right"></div>':basemap};
+	/*The collapse and toggle all surveys buttons are located in this section.*/
+	var overlays = {
+		'Bathymetry<div style="float:right"></div>':bathymetry
+		};
+
+	var control = L.control.layers(
+		baselayers,
+		overlays,
+		{collapsed: false}
+	).addTo(myMap);
+
+  control.addOverlay(adcp, "lala Stations");
+
+	loadwfs2("oceanMapping:adcp_polygons");
+
+	var highlightStyle = {
+    color: '#2262CC',
+    weight: 3,
+    opacity: 0.6,
+    fillOpacity: 0.65,
+    fillColor: '#2262CC'
+};
+
+//Trying to load surveys as polygons
+function loadwfs2(layername) {
+    //if (map.getZoom() > start_at_zoom) {
+        var geoJsonUrl = wfsURL;
+
+
+		console.log(geoJsonUrl);
+
+		var defaultParameters11 = {
+			service : 'WFS',
+			version : '1.0.0',
+			request : 'GetFeature',
+			typeName : layername,
+			outputFormat : 'text/javascript',
+			format_options : 'callback:getJson5',
+			srsName : 'EPSG:4326',
+
+		};
+
+
+        var customParams = {
+            bbox: bboxvar
+        };
+
+        var parameters = L.Util.extend(defaultParameters11,customParams);
+        console.log(geoJsonUrl + L.Util.getParamString(parameters));
+
+
+        $.ajax({
+            url: geoJsonUrl + L.Util.getParamString(parameters),
+            dataType: 'jsonp',
+            jsonpCallback: 'getJson5',
+            success: function (response) {
+
+					survey.addData(response);
+
+					//myMap.addLayer(survey);
+			//layer_control.addOverlay(survey, "lala Stations");
+
+			var testlayer = survey,
+            sliderControl = L.control.sliderControl({
+                position: "topright",
+                layer: testlayer
+            });
+
+        //For a Range-Slider use the range property:
+        sliderControl = L.control.sliderControl({
+            position: "topright",
+            layer: testlayer,
+            timeAttribute: "Project",
+            //isEpoch: true,
+            range: true
+        });
+
+        //Make sure to add the slider to the map ;-)
+     //   myMap.addControl(sliderControl);
+        //And initialize the slider
+      //  sliderControl.startSlider();
+
+
+
+            }
+        });
+
+		};
+
+
+			/*Define and format popups for survey polygons*/
+	function pop_Surveys(feature, layer) {
+
+	//	names[n] = feature.properties['Project'];
+
+		//dates[n] = names[n].substring(0, 4);
+
+		//date = feature.properties['date'].substring(0, 10);
+
+
+		layers[n] = new L.GeoJSON(
+			feature, {
+
+				onEachFeature: function(f,l){
+					l.on({
+						mouseout: function(e) {
+						l.setStyle(style_Surveys());
+						},
+						mouseover: highlightFeature
+					});
+				},
+				style:style_Surveys
+
+		});
+
+		myMap.addLayer(layers[n]);
+
+	/*	var string = '\
+			<span onmouseover="listMouseOver('+n+')" onmouseout="listMouseOut('+n+')">'+names[n]+'</span>'
+		control.addOverlay(layers[n],string);
+
+
+		var popupContent = '<table style="margin: 0; padding: 0;">\
+			<tr>\
+				<td colspan="2"><span style="font-weight: bold; font-size: 14px">' +names[n] + '</span></td>\
+			</tr>\
+			<tr>\
+				<td colspan="2"><span style="font-weight: bold; font-size: 14px">' +date + '</span></td>\
+			</tr>\
+			<tr>\
+				<td colspan="2"><button type="button" onclick="wmsRequest( \'' + date + '\','+n+')" class="btn btn-primary custombtn" value="tideGauge">Access Survey Data</button></td>\
+			</tr>\
+			</table>';
+		layers[n].bindPopup(popupContent);*/
+
+		n=n+1;
+	}
+
+	function wmsRequest(date,n){
+		//console.log(date);
+		mvp.setParams({time: date});
+		myMap.fitBounds(layers[n].getBounds());
+
+		layers[n].on({
+						mouseout: function(e) {
+						layers[n].setStyle(style_Surveys2());
+						},
+						mouseover: function(e) {
+						layers[n].setStyle(style_Surveys2());
+						},
+
+					});
+
+		for (i = 0; i < layers.length; i++) {
+					var date = Number(dates[i]);
+					if(i==n){
+
+					}
+					else{
+						myMap.removeLayer(layers[i])
+					}
+
+				}
+
+		if (myMap.hasLayer(mvp)){
+		}
+		else{
+			control.addOverlay(mvp,"MVP_Points");
+			mvp.addTo(myMap);
+		}
+
+	}
+
+	/*Define style for SJRPolygons0*/
+	/*The following two style parameters are set to variables since they are used in both style_Surveys and listMouseOut/listMouseOver*/
+	var styleColor = 'rgba(165,191,221)';
+	var styleOpacity = 0.4;
+
+	function style_Surveys() {
+		return {
+			opacity: 1,
+			color: 'rgba(84,98,97,1.0)',
+			dashArray: '',
+			lineCap: 'butt',
+			lineJoin: 'miter',
+			weight: 1.0,
+			fillOpacity: styleOpacity,
+			fillColor: styleColor,
+		}
+	}
+
+	function style_Surveys2() {
+		return {
+			opacity: 1,
+			color: 'rgba(84,98,97,1.0)',
+			dashArray: '',
+			lineCap: 'butt',
+			lineJoin: 'miter',
+			weight: 1.0,
+			fillOpacity: 0,
+			fillColor: styleColor,
+		}
+	}
+
+	/*The function highlightFeature is used to highlight a polygon on mouseover*/
+	var highlightLayer;
+	function highlightFeature(e) {
+		highlightLayer = e.target;
+
+		if (e.target.feature.geometry.type === 'LineString') {
+			highlightLayer.setStyle({
+				color: '#ffff00',
+			});
+		} else {
+			highlightLayer.setStyle({
+				fillColor: '#ffff00',
+				fillOpacity: 0.6
+			});
+		}
+	}
+	/*The two functions below are used to highlight a polygon on mouseover in the layers list*/
+	function listMouseOver(n) {
+		layers[n].setStyle({fillColor: '#ffff00', fillOpacity: 0.6});
+	}
+	function listMouseOut(n) {
+		layers[n].setStyle({fillColor: styleColor,fillOpacity: styleOpacity});
+	}
+
+	$(function() {
+            $( "#slider-3" ).slider({
+               range:true,
+               min: 2003,
+               max: 2009,
+               values: [ 2003,2009 ],
+               slide: setLayers
+
+            });
+            $( "#price" ).val( $( "#slider-3" ).slider( "values", 0 ) +
+               " - " + $( "#slider-3" ).slider( "values", 1 ));
+         });
+
+
+	function setLayers( event, ui ) {
+			var min =ui.values[ 0 ] ;
+			var max =ui.values[ 1 ];
+            $( "#price" ).val( min+ " - " + max);
+
+				for (i = 0; i < layers.length; i++) {
+					var date = Number(dates[i]);
+					if(date<min ||date>max){
+						control.removeLayer(layers[i])
+						myMap.removeLayer(layers[i])
+					}
+					if(date>=min && date<=max){
+						if (myMap.hasLayer(layers[i])){
+						}
+						else{
+							var string = '\
+							<span onmouseover="listMouseOver('+i+')" onmouseout="listMouseOut('+i+')">'+names[i]+'</span>'
+							control.addOverlay(layers[i],string);
+							myMap.addLayer(layers[i])
+						}
+					}
+
+				}
+	}
+
+
+    </script>
+</body>
+
+</html>
