@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Initial page to select Area of Interest">
+		<meta name="author" content="MartaPadillaRuiz">
+		<title>Ocean Modelers Web Mapping application</title>
+		
+		<!-- Bootstrap core CSS-->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Custom fonts for this template-->
+		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+		<!-- Custom styles for this template-->
+		<link href="css/sb-admin.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+
+		<!-- Custom style -->
+		<link href="css/mystyle_areaSelection.css" rel="stylesheet">
+		
+		<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+		<!-- Leaflet draw -->
+		<script src="src/Leaflet.draw.js"></script>
+		<script src="src/Leaflet.Draw.Event.js"></script>
+		<link rel="stylesheet" href="src/leaflet.draw.css"/>
+		<script src="src/Toolbar.js"></script>
+		<script src="src/Tooltip.js"></script>
+		<script src="src/ext/GeometryUtil.js"></script>
+		<script src="src/ext/LatLngUtil.js"></script>
+		<script src="src/ext/LineUtil.Intersect.js"></script>
+		<script src="src/ext/Polygon.Intersect.js"></script>
+		<script src="src/ext/Polyline.Intersect.js"></script>
+		<script src="src/ext/TouchEvents.js"></script>
+		<script src="src/draw/DrawToolbar.js"></script>
+		<script src="src/draw/handler/Draw.Feature.js"></script>
+		<script src="src/draw/handler/Draw.SimpleShape.js"></script>
+		<script src="src/draw/handler/Draw.Polyline.js"></script>
+		<script src="src/draw/handler/Draw.Marker.js"></script>
+		<script src="src/draw/handler/Draw.Circle.js"></script>
+		<script src="src/draw/handler/Draw.CircleMarker.js"></script>
+		<script src="src/draw/handler/Draw.Polygon.js"></script>
+		<script src="src/draw/handler/Draw.Rectangle.js"></script>
+		<script src="src/edit/EditToolbar.js"></script>
+		<script src="src/edit/handler/EditToolbar.Edit.js"></script>
+		<script src="src/edit/handler/EditToolbar.Delete.js"></script>
+		<script src="src/Control.Draw.js"></script>
+		<script src="src/edit/handler/Edit.Poly.js"></script>
+		<script src="src/edit/handler/Edit.SimpleShape.js"></script>
+		<script src="src/edit/handler/Edit.Rectangle.js"></script>
+		<script src="src/edit/handler/Edit.Marker.js"></script>
+		<script src="src/edit/handler/Edit.CircleMarker.js"></script>
+		<script src="src/edit/handler/Edit.Circle.js"></script>
+		
+		<!-- Bootstrap core JavaScript-->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+		<!-- Core plugin JavaScript-->
+		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+		<!-- Custom scripts for all pages-->
+		<script src="js/sb-admin.min.js"></script>
+
+	</head>
+
+	<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+		
+		<!--Popups-->
+		<div id="popup">
+			<!-- Popup for the arrow -->
+			<img src="img/arrow_diag.png" align="right" alt="popup">
+			<!--Popup for the message-->
+			<div id="popup2">
+				<p>Welcome to the Ocean Web-Mapping Application!</p>
+				<p>This first page allows to select an area of interest drawing a rectangle on the map. The application will show you the data available for that region.</p>
+				<p>For the purpose of this prototype, the only data available is at the Lower Saint John River (Orange rectangle). Please go to this area and select it using the tool at the top right corner</p>
+				<button id="close" class="btn btn-primary" type="button">Get Started</button>
+			</div>
+		</div>
+	
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+			<img style="margin-left:5px" src="img/pageIcon.png" align="right"><a class="navbar-brand" style="margin-left:25px" href="">Ocean Modelers Web Mapping application</a>
+		</nav>
+
+		<!-- Leaflet Map-->
+		<div class="map-nowrapper" id="tiled-map"></div>
+
+		<script src="js/app_areaSelection.js"></script>
+
+	</body>
+
+</html>
